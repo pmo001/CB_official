@@ -1,8 +1,8 @@
 #will not run until implement files
 #first attempt
 
-from LinkedList import LinkedList
-from Node import Node
+from LinkedList import LinkedList #need to implement to run (1/2)
+from Node import Node #need to implement to run (2/2)
 
 # Access head_node => list.get_head()
 # Check if list is empty => list.is_empty()
