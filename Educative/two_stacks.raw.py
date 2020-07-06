@@ -4,7 +4,7 @@ import numpy as np
 class TwoStacks:
     def __init__(self, n):  # constructor
         self.size = n
-        self.arr = np.zeros([n], dtype=int)
+        self.arr = np.zeros(n, dtype=int)
         
         self.top1 = -1 #delim LHS
         self.top2 = self.size #delim RHS
